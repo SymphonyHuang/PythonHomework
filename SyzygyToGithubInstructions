@@ -1,0 +1,33 @@
+Documentation of pushing and cloning using syzygy and github 
+
+To share from syzygy to the public on github (PUSH)
+
+1. Go to terminal on syzygy (control panel -> new -> terminal)
+2. Use ls to see which folder you're in (what it contains)
+3. Use cd to go into a subfolder and cd .. to go back up a folder
+4. Initialize a repository in that folder by command git init
+5. Add files of that folder to the repository by command git add . (mind the space and period)
+6. Good practice to use command git status to check what was added
+7. Use command git commit -m 'book keeping message' as a type of pre-pushing action
+8. Set up the connnection with your github repository by command git remote add origin 'your_github_folder_url'
+9. Use command git push -u origin master
+10. Should be in your github folder
+11. Note that you just have to initialize a repository in the one folder once
+
+Order of commands (PUSH)
+
+1. git init 
+2. git add . 
+3. git status
+4. git commit -m 'book keeping message'
+5. git remote add origin 'your_github_folder_url'
+6. git push -u origin master
+
+To run other people's code on syzygy (CLONE)
+
+1. Go to terminal in correct folder
+2. git clone 'url from github'
+
+To find other people's code
+
+1. Use their URL
