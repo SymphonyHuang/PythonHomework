@@ -10,6 +10,7 @@ To share from syzygy to the public on github (PUSH)
 6. Good practice to use command git status to check what was added
 7. Use command git commit -m 'book keeping message' as a type of pre-pushing action
 8. Set up the connnection with your github repository by command git remote add origin 'your_github_folder_url'
+Example: https://username/folder
 9. Use command git push -u origin master
 10. Should be in your github folder
 11. Note that you just have to initialize a repository in the one folder once
